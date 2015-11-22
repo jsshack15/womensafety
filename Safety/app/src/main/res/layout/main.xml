@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@android:color/background_dark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@android:color/background_dark"></LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:id="@+id/addcnt"
+        android:layout_gravity="center_horizontal"
+        android:onClick="whenClick" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:text="Call for HELP !!"
+        android:id="@+id/updatecnt"
+        android:layout_gravity="center_horizontal"
+        android:onClick="whenClick2"
+        android:background="@drawable/round_button"
+        android:textSize="40dip" />
+</LinearLayout>
